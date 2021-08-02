@@ -1,18 +1,47 @@
 'use strict'
 
 import DOM from '@rackai/domql'
-var { performance } = window
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-var start = performance.now()
-var dom = DOM.create({
-  style: {
-    fontFamily: '"Helvetica", "Arial", --system-default'
+import { SquareButton, Icon } from '@rackai/symbols'
+import { createSymbol } from './symbol'
+
+Icon
+
+const Button = {
+  proto: SquareButton,
+  props: {
+    icon: 'no-icon'
   },
-  icon: '✅',
-  strong: 'domql',
-  text: ` render in `,
-  time: '',
-  milliseconds: ' milliseconds'
-})
+  text: 'asddsa'
+}
 
-dom.update({ time: `${performance.now() - start}` })
+// const symbol = DOM.create(SquareButton)
+// const Symbol = createSymbol(symbol)
+
+const Symbol = createSymbol(Button)
+
+// const symbol = createSymbol(SquareButton)
+console.log(Symbol)
+
+var e = React.createElement
+
+function TodoItem() {
+  return e("li", null, "Todo Item")
+}
+
+function TodoApp() {
+  return e("div", null, [
+    e("h1", { key: "title" }, "To Do List"),
+    e("ul", { key: "todos" }, [
+      e(TodoItem, { key: "item1" }),
+      e(TodoItem, { key: "item2" })
+    ]),
+    Symbol
+  ]);
+}
+
+ReactDOM.render(e(TodoApp), document.getElementById("root"))
+// ReactDOM.render(Symbol, document.getElementById("root"))
+// ReactDOM.render((<Symbol/>), document.getElementById("root"))
