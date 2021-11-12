@@ -16,7 +16,7 @@ const transformer = el => {
 }
 
 const createElement = element => {
-  const { tag, props, ...el} = element
+  const { tag, props, ...el } = element
   const children = []
   const state = element.state = createState(element)
 

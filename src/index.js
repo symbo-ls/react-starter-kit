@@ -7,8 +7,6 @@ import ReactDOM from 'react-dom'
 import { SquareButton, Icon } from '@rackai/symbols'
 import { createSymbol } from './symbol'
 
-Icon
-
 const Button = {
   proto: SquareButton,
   props: {
