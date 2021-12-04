@@ -1,5 +1,5 @@
 # DOMQL Starter Kit
-Example dev setup (boilerplate) to use [DOMQL](https://github.com/rackai/domql). You can also check live editor [Playground](https://domql.com/playground/).
+Example dev setup (boilerplate) to use [Symbols](https://github.com/symbo-ls) with [React](https://github.com/react). You can also check live editor [Playground](https://domql.com/playground/).
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/rackai/domql-example)
 
@@ -7,7 +7,7 @@ Example dev setup (boilerplate) to use [DOMQL](https://github.com/rackai/domql).
 
 1. Clone the repo
 ```
-git clone git@github.com:rackai/starter-kit.git
+git clone git@github.com:rackai/react-kit.git
 ```
 
 2. Install scripts

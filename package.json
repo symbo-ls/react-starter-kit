@@ -7,7 +7,7 @@
   "repository": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "parcel examples/hooks/index.html --no-cache",
+    "start": "parcel src/index.html --no-cache",
     "startDefault": "parcel src/index.html",
     "build": "parcel build src/index.html"
   },
