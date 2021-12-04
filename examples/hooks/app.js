@@ -10,7 +10,7 @@ import { Button as B, Icon, Notification } from '@rackai/symbols'
 import '@rackai/domql/packages/emotion'
 import clone from 'clone'
 
-import '@symbols/config/dist/main.js'
+import '@symbo.ls/config/dist/main.js'
 
 const Button = {
   proto: B,
@@ -41,7 +41,7 @@ function App () {
   const [text, setText] = useState(0)
   return <>
     <input type="text" value={text} onChange={e => setText(e.target.value)} />
-    <Counter text={text} setText={setText} size='A' padding="A" />
+    <Counter text={text} setText={setText} size='C' padding="A" />
   </>
 }
 
