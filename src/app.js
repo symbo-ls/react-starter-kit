@@ -11,8 +11,8 @@ function App () {
   const [text, setText] = useState('test text')
   return <>
     <input type="text" value={text} onChange={e => setText(e.target.value)} />
-    <Button text={text} setText={setText} size='C' padding="A">
-      <span>{text}</span>
+    <Button text={text.length} setText={setText} size='C' padding="A">
+      <span>{text} and lenght: </span>
     </Button>
   </>
 }
