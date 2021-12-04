@@ -12,9 +12,9 @@
     "build": "parcel build src/index.html"
   },
   "dependencies": {
-    "@domql/emotion": "^1.3.0",
-    "@symbo.ls/react": "^0.5.4",
-    "@symbo.ls/scratch": "^0.2.26",
+    "@domql/emotion": "latest",
+    "@symbo.ls/react": "latest",
+    "@symbo.ls/scratch": "latest",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
