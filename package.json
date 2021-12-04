@@ -1,5 +1,5 @@
 {
-  "name": "domql-example",
+  "name": "@symbo.ls/react-starter-kit",
   "description": "",
   "private": true,
   "author": "",
@@ -12,7 +12,9 @@
     "build": "parcel build src/index.html"
   },
   "dependencies": {
-    "@symbo.ls/react": "latest",
+    "@domql/emotion": "^1.3.0",
+    "@symbo.ls/react": "^0.5.4",
+    "@symbo.ls/scratch": "^0.2.26",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
@@ -20,6 +22,7 @@
     "@babel/core": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
     "babel-plugin-transform-runtime": "^6.23.0",
+    "flow-bin": "^0.166.1",
     "parcel": "^2.0.1"
   },
   "standard": {
