@@ -9,18 +9,18 @@
   "scripts": {
     "start": "parcel src/index.html --no-cache",
     "startDefault": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "fetch": "symbo-ls fetch"
   },
   "dependencies": {
-    "@domql/emotion": "latest",
     "@symbo.ls/react": "latest",
-    "@symbo.ls/scratch": "latest",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.10.4",
-    "@babel/preset-env": "^7.10.4",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@symbo.ls/cli": "^0.6.17",
     "babel-plugin-transform-runtime": "^6.23.0",
     "flow-bin": "^0.166.1",
     "parcel": "^2.0.1"
