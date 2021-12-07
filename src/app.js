@@ -2,6 +2,7 @@
 
 import React, { useEffect, useRef, useState } from 'react'
 import ReactDOM from 'react-dom'
+import PATH from 'path'
 
 import { Button, DatePicker, Input, Flex } from '@symbo.ls/react'
 
@@ -20,3 +21,7 @@ function App () {
 
 ReactDOM.render(<App />, document.getElementById("app"));
 
+// console.log(process.cwd())
+// console.log(__dirname)
+// console.log(PATH)
+// console.log(import.meta)
