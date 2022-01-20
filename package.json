@@ -14,7 +14,6 @@
   },
   "dependencies": {
     "@symbo.ls/react": "^0.6.13",
-    "@symbo.ls/uikit": "^0.6.13",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
