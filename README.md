@@ -1,4 +1,4 @@
-# DOMQL Starter Kit
+# React starter kit
 Example dev setup (boilerplate) to use [Symbols](https://github.com/symbo-ls) with [React](https://github.com/react). You can also check live editor [Playground](https://domql.com/playground/).
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/rackai/domql-example)
