@@ -1,13 +1,13 @@
 # React starter kit
-Example dev setup (boilerplate) to use [Symbols](https://github.com/symbo-ls) with [React](https://github.com/react). You can also check live editor [Playground](https://domql.com/playground/).
+Example dev setup (boilerplate) to use [Symbols](https://github.com/symbo-ls) with [React](https://github.com/react).
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/rackai/domql-example)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/symbo-ls/react-starter-kit)
 
 ### Setup
 
 1. Clone the repo
 ```
-git clone git@github.com:rackai/react-kit.git
+git clone git@github.com:symbo-ls/react-starter-kit.git
 ```
 
 2. Install scripts
